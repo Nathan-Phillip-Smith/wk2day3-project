@@ -1,0 +1,45 @@
+html, body, h1, h2, h3, h4, ul, ol, li, p, a {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font: inherit;
+    font-size: 100%;
+  }
+  body {
+    background: #444444 url("My project.png") top center no-repeat
+  }
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 100px;
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 20px;
+}
+.top-menu {
+    text-decoration: none;
+    color: black;
+}
+.nav {
+    background-color: #444444;
+    text-align: center;
+    padding: 10px;
+}
+.nav li {
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline;
+    padding-right: 30px;
+}
+.nav li:last-child {
+    padding-right: 0px;
+}
+.nav a {
+    color: #FFFFFF
+}
